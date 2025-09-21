@@ -54,12 +54,12 @@
 ---
 
 ## Estrutura básica do projeto
-usuarios/
-└── src/
-├── User.php
-├── Validator.php
-├── UserManager.php
-└── index.php
+usuarios
+    - src/
+        - User.php
+        - Validator.php
+        - UserManager.php
+        - index.php
 
 ---
 
