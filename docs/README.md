@@ -1,13 +1,11 @@
 
 # Sistema de Autenticação em PHP
 
-## Nome e RA da dupla
+## Informações sobre o aluno
 
 - Nome 1: [Jhonatan Cesar Alves da Silva]
 - RA 1: [2010656]
 
-
----
 
 ## Instruções de execução (XAMPP)
 
@@ -21,10 +19,6 @@
     - Edite o arquivo `index.php` e descomente os blocos de teste desejados.
     - Cada caso pode ser ativado individualmente removendo o comentário `//` conforme orientado no próprio arquivo.
 6. Não é necessário banco de dados. Os dados dos usuários estão fixos em memória.
-
----
-
-## Breve documentação
 
 ### Funcionalidades
 
@@ -51,8 +45,6 @@
 - Apenas PHP puro, sem frameworks ou bibliotecas externas.
 - Não recomendado para ambientes de produção sem adaptações de segurança e persistência.
 
----
-
 ## Estrutura básica do projeto
 usuarios
     - src/
@@ -60,8 +52,6 @@ usuarios
         - Validator.php
         - UserManager.php
         - index.php
-
----
 
 ## Observações
 
