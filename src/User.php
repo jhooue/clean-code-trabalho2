@@ -3,16 +3,16 @@
 class User
 {
     private int $id;
-    private string $nome;
+    private string $name;
     private string $email;
-    private string $senhaHash;
+    private string $passwordHash;
 
-    public function __construct(int $id, string $nome, string $email, string $senhaHash)
+    public function __construct(int $id, string $name, string $email, string $passwordHash)
     {
         $this->id = $id;
-        $this->nome = $nome;
+        $this->name = $name;
         $this->email = $email;
-        $this->senhaHash = $senhaHash;
+        $this->passwordHash = $passwordHash;
     }
 
     public function getId(): int
@@ -20,9 +20,9 @@ class User
         return $this->id;
     }
 
-    public function getNome(): string
+    public function getName(): string
     {
-        return $this->nome;
+        return $this->name;
     }
 
     public function getEmail(): string
@@ -30,13 +30,13 @@ class User
         return $this->email;
     }
 
-    public function getSenhaHash(): string
+    public function getPasswordHash(): string
     {
-        return $this->senhaHash;
+        return $this->passwordHash;
     }
 
-    public function setSenhaHash(string $senhaHash): void
+    public function setPasswordHash(string $passwordHash): void
     {
-        $this->senhaHash = $senhaHash;
+        $this->passwordHash = $passwordHash;
     }
 }
